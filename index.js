@@ -67,8 +67,8 @@ const {
   
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
-if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("GOTAR~XMD~", '');
+if(!config.SESSION_ID) return console.log('GOTAR~XMD~PhhXkaqa#50zSgUSM2bYKsyWMLvaKP_psbU1yv715Rnnz4iI3aGM')
+const sessdata = config.SESSION_ID.replace("GOTAR~XMD~PhhXkaqa#50zSgUSM2bYKsyWMLvaKP_psbU1yv715Rnnz4iI3aGM", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -111,9 +111,9 @@ const port = process.env.PORT || 9090;
   }
   });
   console.log('Plugins installed successful ✅')
-  console.log('GOTAR XMD connected Successfully ✅')
+  console.log('匚ʏʙᴇʀ Ｄ 𝐁𝐔𝐆 connected Successfully ✅')
   
-  let up = `*Hello there GOTAR-XMD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet MEGALODON-MD WhatsApp Bot.\n\n *Thanks for using MEGALODON-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VbAdcIXJP216dKW1253g\n\n- *YOUR PREFIX:* = ${prefix}\n\n*MODE:* = ${mode}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/DybyTech/MEGALODON-MD\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅʏʙʏ ᴛᴇᴄʜ \ud83d\udda4`;
+  let up = `*Hello there 匚ʏʙᴇʀ Ｄ 𝐁𝐔𝐆 User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet MEGALODON- WhatsApp Bot.\n\n *Thanks for using 匚ʏʙᴇʀ Ｄ 𝐁𝐔𝐆 \ud83d\udea9* \n\n> contact WhatsApp  :- ⤵️\n \nhttps://wa.me/qr/BXDHYNUFNEEZD1\n\n- *YOUR PREFIX:* = ${prefix}\n\n*MODE:* = ${mode}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/Sudarshana2002dilshan\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 匚ʏʙᴇʀ Ｄilshan \ud83d\udda4`;
     conn.sendMessage(conn.user.id, { image: { url: `https://https://files.catbox.moe/82b8gr.jpg` }, caption: up })
   }
   })
@@ -768,7 +768,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("GOTAR XMD STARTED ✅");
+  res.send("匚ʏʙᴇʀ Ｄ 𝐁𝐔𝐆 STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
